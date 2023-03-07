@@ -1,3 +1,4 @@
+import { Container } from './Container'
 import Navigator from './Navigator'
 
-export { Navigator }
+export { Container, Navigator }
