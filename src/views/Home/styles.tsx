@@ -56,5 +56,16 @@ export const Tag = styled.span`
   padding: 8px 12px;
 `
 export const Layout = styled.div`
+  width: 100%;
+  height: 80%;
   display: grid;
+  grid-template-columns: 1;
+  grid-row-gap: 20px;
+
+  @media (min-width: 768px) {
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
 `
